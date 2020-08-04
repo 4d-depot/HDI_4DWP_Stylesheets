@@ -1,0 +1,207 @@
+﻿{
+	"destination": "detailScreen",
+	"width": 280,
+	"height": 260,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Oval": {
+					"type": "oval",
+					"top": 20,
+					"left": 20,
+					"width": 40,
+					"height": 40,
+					"sizingX": "move",
+					"fill": "#1E90FF",
+					"stroke": "transparent"
+				},
+				"Text": {
+					"type": "text",
+					"top": 112,
+					"left": 0,
+					"width": 100,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "Style:"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 82,
+					"left": 0,
+					"width": 100,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "Font familly:"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 142,
+					"left": 0,
+					"width": 100,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "Font size:"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 172,
+					"left": 0,
+					"width": 100,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "Color:"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 202,
+					"left": 0,
+					"width": 100,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "Alignment:"
+				},
+				"Popup Dropdown List": {
+					"type": "dropdown",
+					"top": 80,
+					"left": 110,
+					"width": 160,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "_fonts",
+					"focusable": false,
+					"method": "ObjectMethods/Popup Dropdown List.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Popup Dropdown List1": {
+					"type": "dropdown",
+					"top": 110,
+					"left": 110,
+					"width": 160,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "_fontStyles",
+					"focusable": false,
+					"method": "ObjectMethods/Popup Dropdown List1.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Popup Dropdown List2": {
+					"type": "dropdown",
+					"top": 140,
+					"left": 110,
+					"width": 160,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "_fontSizes",
+					"focusable": false,
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Popup Dropdown List4": {
+					"type": "dropdown",
+					"top": 170,
+					"left": 110,
+					"width": 160,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "_fontColors",
+					"focusable": false,
+					"method": "ObjectMethods/Popup Dropdown List4.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Popup Dropdown List5": {
+					"type": "dropdown",
+					"top": 200,
+					"left": 110,
+					"width": 160,
+					"height": 20,
+					"sizingX": "move",
+					"dataSource": "_TextAlign",
+					"focusable": false,
+					"method": "ObjectMethods/Popup Dropdown List5.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"btn_rnd": {
+					"type": "button",
+					"top": 230,
+					"left": 170,
+					"width": 100,
+					"height": 18,
+					"sizingX": "move",
+					"text": "Randomize",
+					"fontStyle": "italic",
+					"focusable": false,
+					"method": "ObjectMethods/btn_rnd.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 25,
+					"left": 20,
+					"width": 40,
+					"height": 29,
+					"sizingX": "move",
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "1"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 20,
+					"left": 70,
+					"width": 180,
+					"height": 40,
+					"sizingX": "move",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Define some attributes for the style sheet…"
+				}
+			}
+		}
+	]
+}
